@@ -37,6 +37,10 @@ class Microwave {
 }
 
 public class Popcorn {
+	
+	public static void main(String[] args) {
+		
+	}
 
 	private int kernels = 20;
 	private String flavor;
