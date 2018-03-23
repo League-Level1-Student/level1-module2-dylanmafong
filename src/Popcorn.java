@@ -34,11 +34,35 @@ class Microwave {
 			thingToBeCooked.applyHeat();
 		}
 	}
+
+	public void pause() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void applyHeat() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 public class Popcorn {
 	
 	public static void main(String[] args) {
+		Popcorn a = new Popcorn("flavor");
+		Microwave b = new Microwave();
+		b.putInMicrowave(a);
+		b.setTime(10);
+		b.startMicrowave();
+		b.applyHeat();
+		b.pause();
+		
+		
+		
+	}
+
+	 {
+		// TODO Auto-generated method stub
 		
 	}
 
